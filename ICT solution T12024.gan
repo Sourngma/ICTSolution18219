@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-01-25" view-index="0" gantt-divider-location="388" resource-divider-location="350" version="3.3.3300" locale="en_US">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="221" order="0"/>
+        <field id="tpd4" name="Begin date" width="83" order="1"/>
+        <field id="tpd5" name="End date" width="83" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#009999 #009900 #cc0000 #990099]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="227" order="0"/>
+        <field id="1" name="Default role" width="104" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" uid="f2c9317a261c47b69e09ca8f346ddb6d" name="Build up Project Team" meeting="false" start="2024-01-25" duration="8" complete="98" thirdDate="2024-01-25" thirdDate-constraint="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+            <task id="3" uid="bec3c15eb8894f05b49f0624006579ee" name="Identification Risks" meeting="false" start="2024-01-25" duration="3" complete="97" thirdDate="2024-01-25" thirdDate-constraint="0" expand="true">
+                <depend id="2" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="2" uid="08e79ead2ef8454ea97b5ebe724cb576" name="Set up Protection system" meeting="false" start="2024-01-30" duration="3" complete="100" thirdDate="2024-01-25" thirdDate-constraint="0" expand="true">
+                <depend id="4" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="4" uid="0aa44029bdf74109820ad01142e53c20" name="Testing &amp; Deploy" meeting="false" start="2024-02-02" duration="2" complete="100" thirdDate="2024-01-25" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="5" uid="6df1e033109b43e28ef0ab33c384cc38" name="Cyber Risks Training" meeting="false" start="2024-02-06" duration="3" complete="66" thirdDate="2024-01-30" thirdDate-constraint="0" expand="true">
+            <task id="6" uid="c0c41cb9142a425dbe884a58f29a2e00" name="Cyber Risks Guidline &amp; Procedure" color="#990099" meeting="false" start="2024-02-06" duration="2" complete="60" thirdDate="2024-02-01" thirdDate-constraint="0" expand="true"/>
+            <task id="7" uid="f745851b6a004c1dbfc4c997e4260889" name="Cyber Risk Aware culture" color="#cc0000" meeting="false" start="2024-02-06" duration="1" complete="63" thirdDate="2024-01-25" thirdDate-constraint="0" expand="true">
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="8" uid="8223a95e8d1749e29abe5ba286a73a17" name="Cybersecurity Training" meeting="false" start="2024-02-07" duration="2" complete="50" thirdDate="2024-01-24" thirdDate-constraint="0" expand="true"/>
+            <task id="9" uid="e05d25aa635244c085f273b4a5059aa3" name="Respond Cyber Attacks team 24/7" color="#009999" meeting="false" start="2024-02-06" duration="2" complete="90" thirdDate="2024-02-01" thirdDate-constraint="0" expand="true">
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="10" uid="03bed9618f66499a97098afc604d5f88" name="Reward &amp; Monitoring" meeting="false" start="2024-02-06" duration="6" complete="16" thirdDate="2024-02-12" thirdDate-constraint="0" expand="true">
+            <task id="11" uid="f9f02b2678784646a2e465864df325ef" name="Rewarding Cybersecurity practice" meeting="false" start="2024-02-08" duration="2" complete="51" expand="true"/>
+            <task id="12" uid="c1f6063902f44f5baa32337eebd92053" name="Monitoring &amp; Assist attacks immediately" meeting="false" start="2024-02-06" duration="3" complete="10" thirdDate="2024-01-24" thirdDate-constraint="0" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="13" uid="d4e694502cd344e69904b6895ad2f033" name="Recovery &amp; Report &amp; Train Employees" meeting="false" start="2024-02-09" duration="2" complete="0" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true">
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" uid="77bf61a6e81741a8ace5a564d13372ad" name="Alert &amp; update Risks culture" color="#009900" meeting="false" start="2024-02-13" duration="1" complete="0" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Sourng" function="Default:1" contacts="" phone="">
+            <rate name="standard" value="60"/>
+        </resource>
+        <resource id="1" name="Sunny" function="Default:0" contacts="" phone="">
+            <rate name="standard" value="30"/>
+        </resource>
+        <resource id="2" name="Shelly" function="Default:0" contacts="" phone="">
+            <rate name="standard" value="30"/>
+        </resource>
+        <resource id="3" name="Jodon" function="Default:0" contacts="" phone="">
+            <rate name="standard" value="25"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="8" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
